@@ -11,6 +11,10 @@
 #include <cmath>
 #include <numeric>
 #include <thread>
+#include <algorithm>
+#include <sys/time.h>
+#include <ctime>
+#include <string.h>
 
 std::string spin(int value = 0) {
     
