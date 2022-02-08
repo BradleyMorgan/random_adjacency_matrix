@@ -12,11 +12,11 @@
 #include <numeric>
 #include <thread>
 
-auto constexpr delay{std::chrono::milliseconds{4}};
-
 std::string spin(int value = 0) {
     
     // char spinner[] = {'/', '-', '\\', '|'};
+    
+    int delay = 5;
     
     char buf[sizeof(value)];
     
@@ -33,7 +33,7 @@ std::string spin(int value = 0) {
         //      std::cout << spinner[i] << std::flush;
         //  }
         
-        std::this_thread::sleep_for(delay);
+        std::this_thread::sleep_for(std::chrono::milliseconds(delay));
         
     }
     
