@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AFB6BF827B222F3008B9002 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB6BF727B222F3008B9002 /* main.cpp */; };
+		9AFB6BF827B222F3008B9002 /* random_binary_matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB6BF727B222F3008B9002 /* random_binary_matrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		9AFB6BF427B222F3008B9002 /* random_topology.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = random_topology.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AFB6BF727B222F3008B9002 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9AFB6BF727B222F3008B9002 /* random_binary_matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = random_binary_matrix.cpp; sourceTree = "<group>"; };
+		9AFB6BFE27BE05EC008B9002 /* random_binary_matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random_binary_matrix.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		9AFB6BF627B222F3008B9002 /* random_topology.cpp */ = {
 			isa = PBXGroup;
 			children = (
-				9AFB6BF727B222F3008B9002 /* main.cpp */,
+				9AFB6BF727B222F3008B9002 /* random_binary_matrix.cpp */,
+				9AFB6BFE27BE05EC008B9002 /* random_binary_matrix.h */,
 			);
 			path = random_topology.cpp;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFB6BF827B222F3008B9002 /* main.cpp in Sources */,
+				9AFB6BF827B222F3008B9002 /* random_binary_matrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
